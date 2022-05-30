@@ -337,7 +337,7 @@
 - 將 `遠端 repo` 的最新變更加入至 `本地 repo` 後，合併本地 commit
 - 等同 `git fetch` + `git merge origin/master`
 - `git pull --rebase`<br/>
-   加上 `--rebase` 則等同 `git fetch` + `git rebase`
+  加上 `--rebase` 則等同 `git fetch` + `git rebase`
 - `git pull [remote_repo] [branch_name]`
   - = `git fetch [remote_repo] [branch_name]: git merge o/[branch_name]`
 
@@ -419,14 +419,16 @@ out/*.log
 
 - [I have 2 GitHub accounts. How can I use both when I am working in VS Code?](https://stackoverflow.com/questions/62625513/i-have-2-github-accounts-how-can-i-use-both-when-i-am-working-in-vs-code)
 
-### 1. 安裝插件
+#### 1. 安裝插件
 
 - [GitHub Pull Requests and Issues](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
   - 自動化登入 GitHub
 - [git-autoconfig](https://marketplace.visualstudio.com/items?itemName=shyykoserhiy.git-autoconfig)
+
   - 依據開啟專案自動詢問並設定 Git
   - 也可以 `F1` -> `Set Config` 手動更改
   - 於 `settings.json` 裡可以新增預設設定
+
   ```json
     /**
      * @file "settings.json"
@@ -477,6 +479,12 @@ out/*.log
 ### 移除 GitHub 上的敏感資料
 
 - [GitHub 上の sensitive data を削除するための手順と道のり](https://engineering.mercari.com/blog/entry/20211207-removing-sensitive-data-from-github/)
+
+### GitHub Actions
+
+- [Check! GitHub Actions で導入しておきたい自動化 5 つ（GitHub ブログ要約）](https://zenn.dev/dzeyelid/articles/77541fe1336951)
+- [GitHub Actions における Step/Job/Workflow 設計論](https://zenn.dev/hsaki/articles/github-actions-component)
+- [GitHub Actions 逆引きリファレンス](https://gkzz.dev/posts/github-actions-tips/)
 
 ## Branch Model
 

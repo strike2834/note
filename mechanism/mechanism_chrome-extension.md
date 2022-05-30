@@ -26,6 +26,7 @@
 ## 參考文章
 
 - [Chrome 拡張機能 を作ってみる](https://noitalog.tokyo/chrome-extensions/)
+- [Chrome拡張 つくりかた 令和最新版](https://r7kamura.com/articles/2022-05-07-chrome-extension-dev-2022)
 
 ## 確認其他人製作的擴充功能原始碼
 

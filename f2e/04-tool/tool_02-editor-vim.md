@@ -200,6 +200,16 @@ Vim 也可以使用 `h`、`j`、`k`、`l` 四個鍵替代左、下、上、右�
   - `gnd`
     - `gn`：前往下一個搜尋的關鍵字（`n`）
     - `d`：刪除選擇內容
+2. 同時輸入多行內容
+  - [Vim: insert the same characters across multiple lines](https://stackoverflow.com/questions/9549729/vim-insert-the-same-characters-across-multiple-lines)
+  - 使用 `v` 選擇範圍
+  - 使用 `I` 切換模式（大寫）
+3. 選擇所有內容
+  - [How To "Select All" In Vim/Vi?](https://linuxtect.com/how-to-select-all-in-vim-vi/)
+  - `ggVG`：選擇
+  - `ggy$`：複製
+  - `:%y`：複製
+  - `:%d`：刪除
 
 ## 參考資料
 
