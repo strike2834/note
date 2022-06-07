@@ -2,9 +2,77 @@
 
 ## Windows Subsystem
 
-### Remove a folder
+### Basic setup
 
-`rm -r [folder]`
+- Installation:
+  - `wsl --install`
+  - [安裝 WSL | Microsoft Docs](https://docs.microsoft.com/zh-tw/windows/wsl/install)
+  - [Ubuntu - Microsoft Store 應用程式](https://apps.microsoft.com/store/detail/ubuntu/9PDXGNCFSCZV?hl=zh-tw&gl=TW)
+- Launch:
+  - `bash`
+  - `wsl`
+- Update System:
+  - `sudo apt-get update -y`
+  - `sudo apt-get upgrade -y`
+- List installed shell: `cat /etc/shells`
+- List installed pkg:
+
+### Change config of shell
+
+- Install zsh: `sudo apt-get install zsh -y`
+- Install zsh framework:
+  - zim: `curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh`
+  - oh-my-zsh: `sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
+  - uninstall oh-my-zsh: `uninstall_oh_my_zsh`
+- Set zsh as default shell: `chsh -s $(which zsh)`
+  - or: `chsh -s /bin/zsh`
+- Set zsh theme:
+  - [romkatv/powerlevel10k: A Zsh theme](https://github.com/romkatv/powerlevel10k)
+- Zim: add `zmodule romkatv/powerlevel10k` in `~/.zimrc`
+- Zsh plugins:
+- Restart zsh: `exec zsh -l`
+  - [Option -l of exec shell command](https://stackoverflow.com/questions/39972978/option-l-of-exec-shell-command)
+
+## Basic instruction
+
+| 指令             | 內容         | 補充           |
+| ---------------- | ------------ | -------------- |
+| `mv`             | 移動檔案     | move           |
+| `cp`             | 複製檔案     | copy           |
+| `rm`             | 移除檔案     | remove         |
+| `mkdir`          | 建立資料夾   | make directory |
+| `rm -f [file]`   | 強制移除檔案 | force          |
+| `rm -r [folder]` | 移除資料夾   | recursive      |
+
+### System instruction
+
+| 指令           | 內容                         | 補充 |
+| -------------- | ---------------------------- | ---- |
+| `top`          | 顯示系統所有執行中的程式     |      |
+| `ps            | 顯示使用者所有執行中的程式   |      |
+| `ps -a`        | 顯示系統所有執行中的程式     |      |
+| `kill [id]`    | 關閉執行中的程式             |      |
+| `pkill [name]` | 關閉名稱包含 `[name]` 的程式 |      |
+| `clear`        | 清除畫面                     |      |
+| `history`      | 顯示執行過的指令             |      |
+
+- `ip`
+- `ss`
+- `scp`
+- `sshfs`
+- `curl`
+- `tail`
+- `split`
+- `sed`
+- `grep`
+- `pgrep`
+- `awk`
+- `xargs`
+- `wget [url] \ -O [file]`
+
+### File manager
+
+- [gokcehan/lf](https://github.com/gokcehan/lf/releases)
 
 ### libc-bin error
 

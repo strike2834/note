@@ -81,7 +81,7 @@ const App = () => {
 
 ## 如何建構應用
 
-- React 哲學
+- [mind-map/2.11React 哲学](https://github.com/jCodeLife/mind-map/blob/master/React/2.%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/2.11React%20%E5%93%B2%E5%AD%A6.png)
 1. 從設計稿開始
 2. 將設計好的 UI 劃分至組件層級
 3. 用 React 製作靜態版本
