@@ -19,6 +19,8 @@
 
 ### Change config of shell
 
+#### zsh
+
 - Install zsh: `sudo apt-get install zsh -y`
 - Install zsh framework:
   - zim: `curl -fsSL https://raw.githubusercontent.com/zimfw/install/master/install.zsh | zsh`
@@ -32,6 +34,10 @@
 - Zsh plugins:
 - Restart zsh: `exec zsh -l`
   - [Option -l of exec shell command](https://stackoverflow.com/questions/39972978/option-l-of-exec-shell-command)
+
+#### fish
+
+- [fish shell](https://fishshell.com/)
 
 ## Basic instruction
 
@@ -49,7 +55,7 @@
 | 指令           | 內容                         | 補充 |
 | -------------- | ---------------------------- | ---- |
 | `top`          | 顯示系統所有執行中的程式     |      |
-| `ps            | 顯示使用者所有執行中的程式   |      |
+| `ps`           | 顯示使用者所有執行中的程式   |      |
 | `ps -a`        | 顯示系統所有執行中的程式     |      |
 | `kill [id]`    | 關閉執行中的程式             |      |
 | `pkill [name]` | 關閉名稱包含 `[name]` 的程式 |      |
@@ -69,6 +75,228 @@
 - `awk`
 - `xargs`
 - `wget [url] \ -O [file]`
+
+### set file as excutable
+
+- `chmod u+x [file]`
+
+### 50 個常用指令
+
+- [写代码怎能不会这些 Linux 命令？](https://blog.hellokaton.com/2017/08/write-code-must-linux-command.html)
+- tar
+  - 建立新的 tar 檔案
+    - `tar cvf archive_name.tar dirname/`
+  - 解壓縮 tar 檔案
+    - `tar xvf archive_name.tar`
+  - 開啟 tar 檔案
+    - `tar tvf archive_name.tar`
+- grep
+  - 於檔案搜尋字串（不分大小寫）
+    - `grep -i "the" demo_file`
+  - 顯示搜尋結果，與結果後三行
+    - `grep -A 3 -i "example" demo_text`
+  - 遞迴搜尋資料夾裡的檔案
+    - `grep -r "ramesh" *`
+- find
+  - 搜尋指定名稱之檔案（不分大小寫）
+    - `find -iname "MyProgram.c"
+  - 以搜尋結果之檔案執行命令
+    - `find -iname "MyProgram.c" -exec md5sum {} \;`
+  - 搜尋 home 目錄底下的所有空檔案
+    - `find ~ -empty`
+- ssh
+  - 加入遠端主機
+    - `ssh -l jsmith remotehost.example.com`
+  - 與 ssh 終端互動
+    - `ssh -v -l jsmith remotehost.example.com`
+  - 顯示 ssh 終端版本
+    - `ssh -V`
+- sed
+  - 將 dos 文件（`\r\n` 結尾）轉換為 unix 格式（`\n` 結尾）文件
+    - `sed 's/.$//' filename`
+  - 反轉文件內容後儲存
+    - `sed -n '1!G; h; p' filename`
+  - 替非空行加上行數
+    - `sed '/./=' thegeekstuff.txt | sed 'N; s/\n/ /'`
+- awk
+  - 刪除重複行內容
+    - `awk '!($0 in array) { array[$0]; print}' temp`
+  - 輸出 `/etc/passwd/ 裡所有包含相同 `uid`與`gid` 的行內容
+    - `awk -F ':' '$3=$4' /etc/passwd`
+  - 輸出文件指定段落的文字
+    - `awk '{print $2,$5;}' employee.txt`
+- vim
+  - 開啟檔案並跳至第 10 行
+    - `vim +10 filename.txt`
+  - 開啟檔案並跳至第一個符合內容的位置
+    - `vim +/search-term filename.txt`
+  - 以唯獨模式開始檔案
+    - `vim -R /etc/passwd`
+- diff
+  - 比較時忽略空白
+    - `diff -w name_list.txt name_list_new.txt`
+- sort
+  - 以遞增排序文件內容
+    - `sort names.txt`
+  - 以遞減排序文件內容
+    - `sort -r names.txt`
+  - 根據第三個單字排序 `/etc/passwd` 的內容
+    - `sort -t: -k 3n /etc/passwd | more`
+- export
+  - 顯示含有字串 `oracle` 的環境變數
+    - `$ export | grep ORACLE`
+    - `declare -x ORACLE_BASE="/u01/app/oracle"`
+    - `declare -x ORACLE_HOME="/u01/app/oracle/product/10.2.0"`
+    - `declare -x ORACLE_SID="med"`
+    - `declare -x ORACLE_TERM="xterm"`
+  - 設定全域環境變數
+    - `$ export ORACLE_HOME=/u01/app/oracle/product/10.2.0`
+- xargs
+  - 複製所有 jpg 檔案到外接硬碟
+    - `ls *.jpg | xargs -n1 -i cp {} /external-hard-drive/directory`
+  - 壓縮所有 jpg 檔案
+    - `find / -name *.jpg -type f -print | xargs tar -cvzf images.tar.gz`
+  - 下載文件檔案中的所有網址內容
+    - `cat url-list.txt | xargs wget -c`
+- ls
+  - 更換檔案大小顯示方式
+    - `ls -lh`
+  - 以最後修改時間遞增排序顯示檔案
+    - `ls -ltr`
+  - 於檔案名稱後方顯示副檔名
+    - `ls -F`
+- pwd
+  - 顯示目前所在目錄
+- cd
+- gzip
+  - 建立 `.gz` 壓縮檔
+    - `gzip test.txt`
+  - 解壓縮 `.gz` 檔案
+    - `gzip -d test.txt.gz`
+  - 顯示壓縮比例
+    - `gzip -l *.gz`
+- bzip2
+  - 建立 `.bz2` 壓縮檔
+    - `bzip2 test.txt`
+  - 解壓縮 `.bz2` 檔案
+    - `bzip2 -d test.txt.bz2`
+- unzip
+  - 解壓縮 `.zip` 檔案
+    - `unzip test.zip`
+  - 顯示 `.zip` 檔案內容
+    - `unzip -l jasper.zip`
+- shutdown
+  - 立即關機
+    - `shutdown -h now`
+  - 10 分鐘後關機
+    - `shutdown -h +10`
+  - 重新啟動
+    - `shutdown -r now`
+  - 重新啟動並進行系統檢查
+    - `shutdown -Fr now`
+- ftp
+  - 連接至 ftp 伺服器並下載多個檔案
+    - `ftp IP/hostname`
+    - `ftp> mget *.html`
+  - 顯示遠端主機檔案一覽
+    - `ftp> mls *.html -`
+- crontab
+  - 顯示使用者的 `crontab`
+    - `crontab -u john -l`
+  - 建立一個每十分鐘執行一次的任務
+    - `*/10 * * * * /home/ramesh/check-disk-space`
+- service
+  - 從腳本執行系統服務
+  - 腳本檔案通常位於 `/etc/init.d` 資料夾裡
+  - 查詢服務狀態
+    - `service ssh status`
+  - 查詢所有服務狀態
+    - `service --status-all`
+  - 重新啟動服務
+    - `service ssh restart`
+- ps
+  - 輸出執行中的程序資訊
+  - 顯示所有執行中的程序
+    - `ps -ef | more`
+  - 以樹狀結構顯示執行中的程序
+    - `ps -efH | more`
+- free
+  - 顯示目前系統的記憶體使用狀況
+  - 預設單位為 byte
+  - 更改為其他單位
+    - `free -g`
+    - `-g` 為 GB，`-m` 為 MB，`-k` 為 KB，`-b` 為 bytea
+  - 顯示記憶體總量
+    - `free -t`
+- top
+  - 顯示目前使用系統最多資源的程序
+  - 預設為以 CPU 使用率排序，可再按下 `O` 選擇其他標準
+  - 只使用某個用戶的程序
+    - `top -u oracle`
+- df
+  - 顯示硬碟使用狀況
+  - 預設單位為 byte
+    - `df -k`
+  - 也可使用更符合閱讀習慣的格式
+    - `df -h`
+  - 亦可顯示硬碟格式類型
+    - `df -T`
+- kill
+  - 結束某個程序
+  - 通常會搭配 `ps -ef` 先找到該程序的編號
+    - `ps -ef | grep vim`
+    - `kill -9 7243`
+  - 其他類似指令還有 `killall`、`pkill`、`xkill`
+- cp
+  - 複製檔案 1 至檔案 2，並維持檔案的權限、擁有者與時間標記
+    - `cp -p file1 file2`
+  - 複製檔案 1 至檔案 2，若檔案 2 存在會詢問是否覆蓋
+    - `cp -i file1 file2`
+- mv
+  - 重新命名檔案 1 為檔案 2，若檔案 2 存在會詢問是否覆蓋
+    - `mv -i file1 file2`
+  - 加上 `-f` 則會直接覆蓋
+  - 加上 `-v` 會顯示重新命名過程
+- cat
+  - 一次輸出多個檔案內容
+    - `cat file1 file2`
+  - 加上 `-n` 會於前方顯示行號
+- mount
+  - 如果想要加載檔案系統，需先建立一個目錄，再將系統加載至該目錄上
+    - `mkdir /u01`
+    - `mount /dev/sdb1 /u01`
+- chmod
+  - 修改檔案與目錄的權限
+  - 賦予檔案擁有者與身份組所有權限
+    - `chmod ug+rwx file.txt`
+  - 刪除指定檔案身份組的所有權限
+    - `chmod g-rwx file.txt`
+  - 修改目錄權限，並遞迴修改目錄底下所有檔案與子目錄的權限
+    - `chmod -R ug+rwx file.txt`
+- chown
+  - 修改檔案的擁有者與身份組
+  - 修改檔案擁有者為 oracle、身份組為 db
+    - `chown oracle:dba dbora.sh`
+  - 遞迴修改目錄與目錄底下的所有檔案
+    - `chown -R oracle:dba /home/oracle`
+- passwd
+  - 修改使用者密碼，執行指令後會先詢問舊密碼，之後輸入新密碼
+  - 超級使用者可以使用此指令修改其他使用者的密碼，並且不必輸入舊密碼
+    - `passwd USERNAME`
+  - root 使用者亦可使用此指令刪除其他使用者的密碼，刪除後不需密碼即可登入
+    - `passwd -d USERNAME`
+- mkdir
+  - 於 home 目錄底下建立名為 home 的資料夾
+    - `mkdir ~/temp`
+  - 加上 `-p` 可一同建立路徑中不存在的資料夾
+    - `mkdir -p dir1/dir2/dir3/dir4/`
+
+### fish
+
+- read command parameter
+  - `$argv`
+- display last line of text file
+  - `tail -n 1 [file]`
 
 ### File manager
 

@@ -1,0 +1,11 @@
+[user]
+	email = strike2834@gmail.com
+	name = strike2834
+[core]
+	autocrlf = false
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	dog = log --all --decorate --oneline --graph

@@ -1,1 +1,0 @@
-- [Bash-Oneliner](https://github.com/onceupon/Bash-Oneliner)

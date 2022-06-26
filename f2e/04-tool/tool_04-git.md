@@ -452,29 +452,53 @@ out/*.log
 
 #### 1. 申請 personal access token
 
-由於 GitHub 已經不再支援使用密碼認證，需改為申請 [personal access token](https://github.com/settings/tokens) 完成認證，勾選 `repo`、`admin::repo_hook` 以及 `delete_repo`。
+由於 GitHub 已經不再支援使用密碼認證，需改為申請 [personal access token](https://github.com/settings/tokens) 完成認證，勾選 `repo` 與其餘需要的功能。
 
 #### 2. 確認目前設定狀況
 
-1. `git config --global --list` 檢查目前設定
-2. `git config --global user.name "用戶名"` 與 `git config --global user.email email` 設定主要帳號
-3. `git config --global credential.helper wincred` 設定以系統認證管理員儲存認證
-4. （可跳過？）開啟「認證管理員（Credential Manager）」，選擇「Windows 認證」並刪除之前的 GitHub 認證資料（`git:https://github.com`）
-5. 嘗試 push 會彈出帳號密碼登入視窗，跳過並於上方的密碼輸入框內貼上申請的主帳號 personal access token
+1. 檢查目前設定
+  - `git config --global --list`
+2. 設定主要帳號
+  - `git config --global user.name "用戶名"`
+  - `git config --global user.email email` 
+3. 設定以系統認證管理員儲存認證
+  - `git config --global credential.helper wincred`
+4. （可跳過？）開啟「認證管理員（Credential Manager）」
+  - 選擇「Windows 認證」，刪除之前的 GitHub 認證資料（`git:https://github.com`）
+5. 嘗試 push 會彈出帳號密碼登入視窗，跳過該視窗
+  - 於之後 VSCode 上方出現的密碼輸入框內，貼上申請的主帳號 personal access token
 
 #### 3. 設定副帳號
 
 1. 移動錨點至副帳號管理用的 git 資料夾
-2. `git init` 初始化以及 `git remote add origin https://github.com/[subusername]/[subuserrepo].git` 設定遠端 repo（可跳過？）
-3. `git config --local --list` 檢查目前設定
-4. `git config --local user.name "用戶名"` 與 `git config --local user.email email` 設定次要帳號
-5. `git config --local credential.helper wincred` 設定以系統認證管理員儲存認證
-6. 修改遠端 repo `git remote set-url origin https://[subusername]@github.com/[subusername]/[subuserrepo].git`
-7. 嘗試 push 會彈出帳號密碼登入視窗，跳過並於上方的密碼輸入框內貼上申請的副帳號 personal access token
+2. 初始化及設定遠端 repo 
+  - `git init`
+  - `git remote add origin https://github.com/[subusername]/[subuserrepo].git`（可跳過？）
+3. 檢查目前設定
+  - `git config --local --list` 
+4. 設定次要帳號
+  - `git config --local user.name "用戶名"`
+  - `git config --local user.email email` 
+5. 設定以系統認證管理員儲存認證
+  - `git config --local credential.helper wincred`
+6. 修改遠端 repo
+  -  `git remote set-url origin https://[subusername]@github.com/[subusername]/[subuserrepo].git`
+7. 嘗試 push 會彈出帳號密碼登入視窗，跳過該視窗
+  - 於之後 VSCode 上方出現的密碼輸入框內，貼上申請的副帳號 personal access token
 
 #### 4. 如果失敗…
 
 如果 push 後失敗且沒有再跳出密碼輸入框，直接開啟「認證管理員」，選擇「Windows 認證」並「新增一般認證」，主帳號的「網際網路或網路位址」輸入 `git:https://github.com`，密碼輸入主帳號的 personal access token，副帳號的「網際網路或網路位址」輸入 `git:https://[subusername]@github.com`，其餘同文。
+
+### 切換多個帳號 - Access Token 法
+
+#### 1. 申請 personal access token
+
+由於 GitHub 已經不再支援使用密碼認證，需改為申請 [personal access token](https://github.com/settings/tokens) 完成認證，勾選 `repo` 與其餘需要的功能。
+
+#### 2. 於 remote url 加上 access token
+
+`git remote set-url origin https://username:token@github.com/username/repository.git`
 
 ### 移除 GitHub 上的敏感資料
 

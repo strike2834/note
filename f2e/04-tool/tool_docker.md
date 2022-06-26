@@ -26,9 +26,17 @@ Docker 的出現，是為了解決在 deploy 作業途中時會出現的各種�
 
 Docker 就是使用了容器虛擬化概念的應用程式之一，另外也有許多其它使用容器虛擬化的應用程式。
 
-Docker 以名為 `Dockerfile` 的檔案為基礎來產生容器（執行程式），Docker 會依照檔案內所記載的，依序執行指令。因此擁有 1. 能夠簡單多次產生容器 2. 能夠將容器帶著走 3. 能夠簡便管理應用程式的版本 等等許多優點。
+Docker 以名為 `dockerfile` 的檔案為基礎來建立鏡像，以及產生容器（執行程式），Docker 會依照檔案內所記載的指令依序執行。因此擁有 1. 能夠簡單多次產生容器 2. 能夠將容器帶著走 3. 能夠簡便管理應用程式的版本 等優點。
 
 原本 Docker 是 LinuxOS 專用的功能，之後 macOS 和 Windows 上面也有了如 `Docker Desktop for Mac` 或 `Docker for Windows` 這類先於電腦上執行 Linux 環境的虛擬機器，再於其中執行 Docker 的應用程式。
+
+### tl;dr
+
+- Docker 成立於既有的 Linux Kernal
+- 透過分享鏡像可讓多人於不同環境簡單啟動容器
+- 容器透過 Docker 指令逐一命令
+- dockerfile 可以簡化 docker 指令輸入作業
+- docker-compose 可以於同一 host OS 上管理複數容器
 
 ## 安裝
 
@@ -59,8 +67,8 @@ Windows 版會推薦先安裝 WSL2（Windows Subsystem for Linux，於 Windows �
 ### B. Linux
 
 - 移除舊版本：`sudo apt-get remove docker docker-engine docker.io`
-- 使用腳本安裝：`curl -fsSL https://get.docker.com -o get-docker.sh`
-  <br>`sudo sh get-docker.sh`
+- 使用腳本安裝：`curl -fsSL https://get.docker.com -o get-docker.sh`<br/>
+  `sudo sh get-docker.sh`
 - 若想使用非 root 使用者執行 docker，可將此使用者加至 `docker` 身份組中
 - `sudo usermod -aG docker your-user`
 
@@ -72,6 +80,8 @@ Windows 版會推薦先安裝 WSL2（Windows Subsystem for Linux，於 Windows �
 - `top`、`htop`、`ctop`、`gtop`、`conky`：監看工具
 
 ### 撰寫 Dockerfile
+
+- [あなたの Dockerfile はベストプラクティスに従っていますか？(ベストプラクティスとチェックツール)](https://qiita.com/yoshii0110/items/0accb7f21fa1c375e0d7)
 
 ```dockerfile
 # fetch node v4 LTS codename argon
@@ -102,22 +112,42 @@ EXPOSE 4321 35729 5432
 CMD ["gulp", "serve"]
 ```
 
-- Image
-- Dockerfile
-- Docker Compose
+### VS Code Remote - Containers
+
+- [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+- `Remote-Containers: Try a Development Container Sample...`
+
+### devcontainers/cli
+
+- [Dev Container が VSCode から CLI にもやって来た](https://zenn.dev/hankei6km/articles/devcontainers-in-cli-ci)
+
+### Docker deploy
+
+- [Container Registry および Runtime (Docker デプロイ)](https://devcenter.heroku.com/ja/articles/container-registry-and-runtime)
 
 ## 參考資料
 
-- [いまさらだけど Docker に入門したので分かりやすくまとめてみた](https://qiita.com/gold-kou/items/44860fbda1a34a001fc1)
-- [Docker を体系的に学べる公式チュートリアル和訳](https://qiita.com/Michinosuke/items/5778e0d9e9c04038903c)
-- [初心者が絵で理解する Docker](https://zenn.dev/suzuki_hoge/books/2021-04-docker-picture-60fbe950136be9c7ad85)
+### 2018
+
 - [「Docker」を全く知らない人のために「Docker」の魅力を伝えるための「Docker」入門](https://qiita.com/bremen/items/4604f530fe25786240db)
+
+### 2019
+
+- [Docker で立ち上げた開発環境を VS Code で開く!](https://qiita.com/yoskeoka/items/01c52c069123e0298660)
+
+### 2020
+
+- [いまさらだけど Docker に入門したので分かりやすくまとめてみた](https://qiita.com/gold-kou/items/44860fbda1a34a001fc1)
 - [【図解】Docker の全体像を理解する -前編-](https://qiita.com/etaroid/items/b1024c7d200a75b992fc)
 - [Docker を体系的に学び直してみた(導入編)](https://qiita.com/takuya_tsurumi/items/182d2de3f3ce7bb63edb)
-- [Docker で立ち上げた開発環境を VS Code で開く!](https://qiita.com/yoskeoka/items/01c52c069123e0298660)
-- [VPN と Docker を併用する](https://shinpei.github.io/blog/2014/11/11/how-to-vpn-and-docker-live-along)
-- [V2Ray on Docker (Docker Compose)](https://github.com/jim60105/docker-V2Ray)
-- [軽量 Docker イメージに安易に Alpine を使うのはやめたほうがいいという話](https://blog.inductor.me/entry/alpine-not-recommended)
-- [Docker 完全に理解した](https://eng-blog.iij.ad.jp/archives/12414)
-- [作業環境をDockerfileにまとめて、macOSでもLinuxでもWSL2でも快適に過ごせるようになった話](https://zenn.dev/hinoshiba/articles/workstation-on-docker)
+- [Docker のことが多分わかるハンズオン](https://speakerdeck.com/yoshi0202/dockerfalsekotogaduo-fen-wakaruhanzuon)
 
+### 2022
+
+- [Docker を体系的に学べる公式チュートリアル和訳](https://qiita.com/Michinosuke/items/5778e0d9e9c04038903c)
+- [初心者が絵で理解する Docker](https://zenn.dev/suzuki_hoge/books/2021-04-docker-picture-60fbe950136be9c7ad85)
+- [Docker 完全に理解した](https://eng-blog.iij.ad.jp/archives/12414)
+- [Mark Volkmann's blog - Containers](https://mvolkmann.github.io/blog/topics/#/blog/containers/)
+- [作業環境を Dockerfile にまとめて、macOS でも Linux でも WSL2 でも快適に過ごせるようになった話](https://zenn.dev/hinoshiba/articles/workstation-on-docker)
+- [VSCode のリモートコンテナ機能を用いて、あるリポジトリ専用の環境を開発者間で統一する](https://zenn.dev/yuchiki/articles/vscode-remote-container)
+- [Docker Compose な開発環境にちょい足し 3 分で作る VSCode devcontainer](https://zenn.dev/saboyutaka/articles/9cffc8d14c6684)

@@ -55,6 +55,14 @@
 - [React 筆記](f2e/03-js/framework/js_react-note)
 - [Vue 2 筆記](f2e/03-js/framework/js_vue2-note)
 
+## 如何撰寫
+
+- [Summary](writing/writing_summary.mda)
+- [撰寫程式原則](writing/writing_coding-principle.md)
+- [什麼是好的程式碼](writing/writing_what-is-good-code.md)
+- [如何技術文章](writing/writing_how-to-write-a-tech-article.md)
+- [JD 整理術](writing/writing_johnny-decimal-system.md)
+
 ## F2E 工具
 
 - [自動化工具](f2e/04-tool/tool_01-tasker-and-bundler.md)
@@ -75,10 +83,11 @@
 
 ## Mechanism
 
+- [Linux](mechanism/mechanism_linux.md)
 - [正規表達式 Regular Expression](mechanism/mechanism_regular-expression)
 
 ## Programming
 
-- [程式理論](programming/programming_computer-science)
+- [學術](programming/programming_computer-science)
 - [Python](programming/programming_python)
 - [Rust](programming/programming_rust)

@@ -1,6 +1,7 @@
 # docsify - 即時轉譯 Markdown 成為網頁
 
-- [Docsify](https://docsify.js.org/) 是一套以 Vue 為基底所撰寫，即時解析 markdown 檔案產生網頁頁面的靜態網站產生器
+- [Docsify](https://docsify.js.org/) 是一套靜態網站產生器
+- 以 Vue 為基底撰寫，即時解析 markdown 檔案產生網頁頁面
 - 特徵是初始化完畢後，只需要 `index.html` 和 markdown 檔案即可運作，不需進行 build
 
 ## 安裝
@@ -37,12 +38,13 @@ Docsify 以資料夾進行分層，並藉此決定路徑，例如：
 │   │   │   ├── README.md    // 說明書
 │   │   │   ├── _sidebar.md  // 側邊欄（資料樹狀大綱）
 │   │   │   └── image.png    // 說明書內的使用圖片
-│   │   ├── YYYYMMDD_作業事項
+│   │   ├── YYYYMMDD_作業事項 // 路徑: /2019/YYYYMMDD_作業事項
 │   │   │   ...
 │   │   └── README.md
 │   ├── .nojekyll
 │   ├── README.md
-│   ├── _sidebar.md
+│   ├── _sidebar.md            // 加入側邊欄
+│   ├── _navbar.md             // 加入下拉選單
 │   └── index.html
 ├── node_modules
 ├── package.json
@@ -50,9 +52,7 @@ Docsify 以資料夾進行分層，並藉此決定路徑，例如：
 └── yarn.lock
 ```
 
-存取 `YYYYMMDD_作業事項` 的路徑就會是 `/2019/YYYYMMDD_作業事項`。
-
-並且可透過 `_sidebar.md` 加入側邊欄、 `_navbar.md` 加入下拉選單，而這些指引功能檔案的內容需自行以清單格式撰寫：
+`_sidebar.md` 與 `_navbar.md` 這些指引檔案需自行以清單格式撰寫：
 
 ```markdown
 - [需求規格](spec.md "需求規格")
