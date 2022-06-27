@@ -8,8 +8,10 @@
 - 一個基本 HTML 標籤裡會有「名稱」與「屬性」
   - 格式為 `<tagName attributeName="attributeValue">Content</tagName>`
   - 名稱（tagName）宣告這是什麼標籤，屬性（attributeName）宣告標籤的相關性質
+- [HTML Standard](https://html.spec.whatwg.org/multipage/)
+- [ECMA-262 - Ecma International](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/)
 - [HTML Standard 日本語訳](https://momdo.github.io/html/)
-- [HTML Living Standard 　 HTML 要素チートシート](https://htmlls.docs-share.com/)
+- [HTML Living Standard HTML 要素チートシート](https://htmlls.docs-share.com/)
 
 ## HTML 的四大基本結構
 

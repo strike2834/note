@@ -22,7 +22,6 @@ CSS 將每個內容元素的外觀架構區分為 `Margin`、`Border`、`Padding
 
 而盒模型可以透過 `box-sizing` 屬性指定，目前多半還是使用 `border-box`
 
-- [CSS Layouts](http://frontendlabepam.github.io/FL5/css-layouts/css-layouts.html#1)
 - [段組みの CSS。](https://lopan.jp/css-layout2/)
 
 ## display
@@ -184,7 +183,7 @@ CSS 將每個內容元素的外觀架構區分為 `Margin`、`Border`、`Padding
 - 以二維的方式定位的模型
 - grid 並非用於取代 flexbox，而是補足 flexbox 的不足
 - 需先使用 `display: grid` 定義主容器顯示類型，再用 `grid-template` 定義版型結構
-- [CSS Grid Generator | LayoutIt!](https://grid.layoutit.com/)
+- [CSS Grid Generator](https://grid.layoutit.com/)
 
 #### 宣告長寬
 
@@ -239,8 +238,6 @@ CSS 將每個內容元素的外觀架構區分為 `Margin`、`Border`、`Padding
 - [GRID: A simple visual cheatsheet for CSS Grid Layout](https://grid.malven.co/)
 - [A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [關於 Grid Layout 的使用姿勢](https://blog.hinablue.me/css-grid-layout/)
-- [CSS Grid | 剛學會怎麼用 Grid，那就來畫個 TV 檢驗圖練練手吧！- 手寫筆記 - Medium](https://medium.com/%E6%89%8B%E5%AF%AB%E7%AD%86%E8%A8%98/using-css-grid-to-draw-test-card-7ed24d3559ab)
-- [CSS | 所以我說那個版能不能好切一點？- Grid 基本用法 - Enjoy life enjoy coding - Medium](https://medium.com/enjoy-life-enjoy-coding/css-%E6%89%80%E4%BB%A5%E6%88%91%E8%AA%AA%E9%82%A3%E5%80%8B%E7%89%88%E8%83%BD%E4%B8%8D%E8%83%BD%E5%A5%BD%E5%88%87%E4%B8%80%E9%BB%9E-grid-%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95-cd763091cf70)
 
 ### 8. 其它 display 屬性
 

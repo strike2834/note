@@ -2,31 +2,42 @@
 
 ## 入門
 
+### 總覽介紹
+
 - [零基礎的小明要如何成為前端工程師？](https://medium.com/hulis-blog/frontend-engineer-guide-297821512f4e)
-- [想轉職前端工程師？你該先好好認識這個職業](https://forum.gamer.com.tw/C.php?bsn=60561&snA=19606)
+  - 用白話淺顯的方式介紹網頁與開發
 - [成為 Web 開發人員的路線圖](https://github.com/goodjack/developer-roadmap-chinese)
-- [前端工程師養成手冊](https://idoc.hexschool.com/tobef2e/chapter1.html)
-- [邁向前端工程師之路！](https://quip.com/D59vAxcgG8Qc)
 - [紮實的網頁前端學習路線與資源推薦](https://blog.huli.tw/2019/08/21/real-front-end-learning-path/)
+- [前端新手技能樹](https://www.youtube.com/playlist?list=PLEfh-m_KG4dbIsiIycniUF8kbzb2RgsUB)
+- [前端工程師養成手冊](https://idoc.hexschool.com/tobef2e/chapter1.html)
+  - 前端工程師簡介、學習與求職心法
+- [想轉職前端工程師？你該先好好認識這個職業](https://forum.gamer.com.tw/C.php?bsn=60561&snA=19606)
 
 ### 技術資源
 
+- [MDN](https://developer.mozilla.org/en-US/docs/Web)
+  - [フロントエンドエンジニア御用達の MDN web docs を網羅した](https://qiita.com/snakada/items/07347d6ad10ae661fbc6)
+- [W3Schools](https://www.w3schools.com/)
+- [freeCodeCamp](https://www.freecodecamp.org/learn)
 - [Web フロントエンド基礎力 ( 初心者向け )](https://qiita.com/teradonburi/items/43c52d7cffc318e9b1e9)
+  - HTML：常用標籤、塊狀行內元素、屬性、id、class、常見標籤、style、script
+  - CSS：選擇器（與優先順序）、各種常見屬性、響應式、前綴、引擎前綴、Reset
+  - JavaScript：控制 DOM
 - [すべての新米フロントエンドエンジニアに読んでほしい 50 の資料](https://qiita.com/suzu-4/items/ea5d802cb0ad16682ae2)
-- [フロントエンドに関わる人のスキルとして知っておきたいこと](https://qiita.com/mmomm/items/f1b3eeb0e64d6f172c39)
+  - 前端入門：認識官方文件，認識語言、UI、可用性、SEO、瀏覽器、安全性、測試、資料庫
+  - 現代前端：認識 Flux 與虛擬 DOM、語言、架構、效能改善
 - [最短で Web 業界で給与を得るための最小知識 2020](https://qiita.com/mazgi/items/30d77099445288af0bda)
-- [新人 Web プログラマの学習が捗るリンク集](https://qiita.com/tgsmsk/items/5bc9a2a5fd2d4cb155c2)
-- [フロントエンドエンジニア御用達の MDN web docs を網羅した](https://qiita.com/snakada/items/07347d6ad10ae661fbc6)
+  - 各個領域的知識範疇：硬體、網路、Linux、Linux 指令、Web 伺服器、Web 應用/HTTP、HTML/CSS/JavaScript、版本管理/Git、資料/資料庫
+- [新人の方によく展開している有益な情報](https://qiita.com/kazuo_reve/items/d1a3f0ee48e24bba38f1)
+  - 發問、搜尋、報告、理解、推測、邏輯、設計、除錯、分析、計畫、時間、回顧、努力、學習、收集資訊、職涯、技能
 - [命令列的藝術](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh-Hant.md)
 - [フロントエンドを集中的に学習できる究極の無料リソースを厳選してみた！](https://paiza.hatenablog.com/entry/2022/01/12/143000)
 - [エンジニアを始めてから便利だったツールまとめ](https://zenn.dev/nakaatsu/articles/7133e16a0f787c)
-- [「動画で助かる」「IT 基礎知識が一通り学べる」── 各社が公開した新人エンジニア向けの研修資料が話題に](https://www.itmedia.co.jp/news/articles/2107/30/news111.html)
 - [株式会社リクルート　エンジニアコース新人研修の内容を公開します！（2021 年度版）](https://recruit-tech.co.jp/blog/2021/08/20/recruit-bootcamp-2021/)
-- [新人の方によく展開している有益な情報](https://qiita.com/kazuo_reve/items/d1a3f0ee48e24bba38f1)
 - [前端開發者清單](https://github.com/EngineLin/Front-End-Checklist)
-- [現在の Google の HTML・CSS ガイドに沿ったコーディング規約/日本語訳 - FUERU](https://fueru.info/design/html-css/google-styleguide/)
-- [WordPress のテーマを作る羽目になった Web エンジニアへ](https://zenn.dev/antez/articles/8e576daf822a84#%E6%9C%80%E5%BE%8C%E3%81%AB)
-- [Public APIs](https://github.com/public-apis/public-apis)
+- [Code Guide by @mdo](https://codeguide.co/)
+- [GitHub Skills](https://skills.github.com/)
+- [chot.design](https://chot.design/)
 
 #### Repo
 
@@ -93,15 +104,15 @@
 
 - [新擬物化設計 Neumorphism 讓 UIUX 設計師重新思考的 5 件事](https://medium.com/as-a-product-designer/%E6%96%B0%E6%93%AC%E7%89%A9%E5%8C%96%E8%A8%AD%E8%A8%88neumorphism%E8%AE%93uiux%E8%A8%AD%E8%A8%88%E5%B8%AB%E9%87%8D%E6%96%B0%E6%80%9D%E8%80%83%E7%9A%845%E4%BB%B6%E4%BA%8B-9c0eff8dcd90)
 - [UI のデザインでよく見かける、目の錯覚による違和感を取り除くデザインテクニックのまとめ](https://coliss.com/articles/build-websites/operation/design/visually-distorted-when-ui-looks-all.html)
-- [【Unity】新規ゲームの UI 開発で気をつけた 39 の Tips 前編](https://qiita.com/ohbashunsuke/items/0570234362e2e45c0011)
 - [【2019 年版】UI と UX デザイントレンド](https://qiita.com/baby-degu/items/c3fc3b038e937112d999)
+- [「お前、デザインわからないならデザイナーの後ろで作業ずっと見てろ」と言われ、素直にやってみたらすごい気づきがあった思い出](https://note.com/ikedanoriyuki/n/ncbf69cf0af46)
 - [エンジニアのための Figma 知識](https://zenn.dev/seya/articles/127027b75dbba0)
 - [Web・アプリ開発のエンジニアが知っておきたい、デザインツール「Figma」の基本 - JMDC TECH BLOG](https://techblog.jmdc.co.jp/entry/how-to-use-figma-for-engineers)
-- [「お前、デザインわからないならデザイナーの後ろで作業ずっと見てろ」と言われ、素直にやってみたらすごい気づきがあった思い出](https://note.com/ikedanoriyuki/n/ncbf69cf0af46)
 - [エンジニアに伝わるデザインを作るための Figma の Auto Layout 入門 - ICS MEDIA](https://ics.media/entry/211015/)
 - [Styled System | 從 Primer 看 GitHub 如何建構 design system](https://medium.com/starbugs/styled-system-is-the-path-to-primer-99b8d7cdecce)
 - [AddyOsmani.com - The Import On Interaction Pattern](https://addyosmani.com/blog/import-on-interaction/)
 - [ユーザインタフェース設計 | junkato.jp](https://junkato.jp/ja/user-interface-design/)
+- [WordPress のテーマを作る羽目になった Web エンジニアへ](https://zenn.dev/antez/articles/8e576daf822a84#%E6%9C%80%E5%BE%8C%E3%81%AB)
 
 ## 實作
 
@@ -136,7 +147,7 @@
 | [dribbble](https://dribbble.com/)                                                   | 以設計面向為主的社群網站                                  |
 | [awwward](http://www.awwwards.com/)                                                 | 網頁設計領域的競賽平台                                    |
 | [Muzli](https://muz.li/)                                                            | 切換 Chrome 新分頁成為設計相關主題用的插件                |
-| [Chrome Experiments](https://experiments.withgoogle.com/collection/chrome)          | 為了推廣 Chrome 用的展示網站                              |
+| [Chrome Experiments](https://experiments.withgoogle.com/collection/chrome)          | 為推廣 Chrome 用的展示網站                                |
 | [Web Graphics Experiments](https://experiments.p5aholic.me/)                        | 由 KEITA YAMADA 製作的展示網站                            |
 | [A Single Div](https://a.singlediv.com/)                                            | 由 Lynn Fisher 製作只用一個 DIV 與 CSS 繪製圖像的展示網站 |
 | [臆病な魔女 Yui540](https://yui540.graphics/#/)                                     | 由 Yui540 製作的展示網站                                  |
@@ -146,7 +157,6 @@
 | [37 CSS Accordions](https://freefrontend.com/css-accordions/#horizontal-accordions) | 37 種 CSS 實作內容折疊與展開範例                          |
 
 - [你都去哪裡找網站動態特效設計靈感？(網站設計篇)](https://blockstudio.tw/blog/webdesign-inspiration-for-blockstudio/)
-- [【2021 年総まとめ】Web デザインギャラリー S5-Style で特に秀逸だったサイト集](https://note.com/shogotabuchi/n/n50a7abe4c472)
 - [Use These 'Dummy Numbers' When Prototyping With Data](https://www.ideo.com/blog/use-these-dummy-numbers-when-prototyping-with-data)
 
 ## Note

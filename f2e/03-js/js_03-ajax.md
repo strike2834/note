@@ -16,10 +16,10 @@
   - 並反應到網頁上的技術概念
   - 後續提及的 `XMLHttpRequest` 物件、jQuery 裡的 `.ajax` function、`Fetch` 和 axios 都是種 AJAX 技術
 - [Native な JavaScript で Fetch API を利用し Ajax を行う](https://qiita.com/doriven/items/503fdc6de9bc0e725334)
-- [Javascript の Ajax についての基本まとめ - Qiita](https://qiita.com/katsunory/items/9bf9ee49ee5c08bf2b3d)
-- [透過 curl、Python、Postman 來 Request API \- 🐴 的學習筆記](https://jzchangmark.wordpress.com/2016/06/12/%E9%80%8F%E9%81%8E-curl%E3%80%81python%E3%80%81postman-%E4%BE%86-request-api/)
+- [Javascript の Ajax についての基本まとめ](https://qiita.com/katsunory/items/9bf9ee49ee5c08bf2b3d)
+- [透過 curl、Python、Postman 來 Request API](https://jzchangmark.wordpress.com/2016/06/12/%E9%80%8F%E9%81%8E-curl%E3%80%81python%E3%80%81postman-%E4%BE%86-request-api/)
 - [一起來把煩人 XMLHttpRequest 變成 Fetch 怎麼樣？](https://realdennis.medium.com/%E4%B8%80%E8%B5%B7%E4%BE%86%E6%8A%8A%E7%85%A9%E4%BA%BA-xmlhttprequest-%E8%AE%8A%E6%88%90-fetch-%E6%80%8E%E9%BA%BC%E6%A8%A3-8657f2854894)
-- [AJAX 與 Fetch API · 從 ES6 開始的 JavaScript 學習生活](https://eyesofkids.gitbooks.io/javascript-start-from-es6/content/part4/ajax_fetch.html)
+- [AJAX 與 Fetch API](https://eyesofkids.gitbooks.io/javascript-start-from-es6/content/part4/ajax_fetch.html)
 
 ## 1. XMLHttpRequest
 

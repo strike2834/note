@@ -26,7 +26,7 @@
 - [プログラマが知っているとよい色使い ( 安全色 ) とカラーユニバーサルデザイン](https://qiita.com/kaizen_nagoya/items/cb7eb3199b0b98904a35)
 - [RGB、HSL、Hex 網頁色彩碼，看完這篇全懂了](http://csscoke.com/2015/01/01/rgb-hsl-hex/)
 - [Web 開發者需要瞭解的基礎色彩理論](https://juejin.im/post/5c6caee26fb9a049df24a4df)
-- [Beginning Graphic Design: Color - YouTube](https://www.youtube.com/watch?v=_2LLXnUdUIc)
+- [Beginning Graphic Design: Color](https://www.youtube.com/watch?v=_2LLXnUdUIc)
 
 ### 三原色
 
@@ -80,14 +80,14 @@ HSL 色彩寫法為 `HSL (色相角度不加單位 0~360, 色彩飽和度 0~100%
 - [色による「見やすさ」のデザイン](http://creator.dwango.co.jp/13693.html)
 - [伝わるデザイン - 配色](https://tsutawarudesign.com/miyasuku5.html)
 - [印刷物の可読性に対する背景色及び年齢・照度の影響](https://www.jstage.jst.go.jp/article/jcsaj/41/3+/41_163/_pdf)
-- [視認性・可読性の確保 | 使いやすさを考えた配色 | 基礎からわかるホームページの配色](https://www.webcolordesign.net/color_point/usability/readable_color.html)
+- [視認性・可読性の確保](https://www.webcolordesign.net/color_point/usability/readable_color.html)
 - [視認性と可読性](http://creator-index.com/2015/01/729/)
 - [Colour Contrast Analyser (CCA)](https://developer.paciellogroup.com/resources/contrastanalyser/)
 - [同彩度でも配色次第で文字色を反転させる境目が違う気がする](https://twitter.com/shin_5_9/status/1289752572480196608)
 
 ### 網頁安全色
 
-- [Web セーフカラー　カラーコード一覧 - Qiita](https://qiita.com/yuma_h/items/13989334fc7a6d016ea5)
+- [Web セーフカラー　カラーコード一覧](https://qiita.com/yuma_h/items/13989334fc7a6d016ea5)
 
 ## 邊框
 
@@ -128,7 +128,7 @@ HSL 色彩寫法為 `HSL (色相角度不加單位 0~360, 色彩飽和度 0~100%
 - `border` 本身具有空間，在使用時須注意計算<br />
   ├ 用於動畫時，可以設定為 `hidden`，或是設定初始顏色為透明色解決空間問題<br />
   └ 因為四邊 `border` 會彼此交疊，此特性可用於無長寬的虛擬元素來製作圖形
-- [CSS だけで三角・矢印を作る方法 | webclips](https://design.webclips.jp/css-arrow/)
+- [CSS だけで三角・矢印を作る方法](https://design.webclips.jp/css-arrow/)
 
   ```css
   .message-box::after {

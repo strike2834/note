@@ -25,7 +25,7 @@
 - [語言技術：ECMAScript Essence](https://openhome.cc/Gossip/ECMAScript/index.html)
 - [從 ES6 開始的 JavaScript 學習生活](https://eyesofkids.gitbooks.io/javascript-start-from-es6/content/)
 - [JavaScript Promise の本](https://azu.github.io/promises-book/)
-- [モダン JavaScript チートシート | Modern JS Cheatsheet](https://mbeaudru.github.io/modern-js-cheatsheet/translations/ja-JP.html)
+- [モダン JavaScript チートシート Modern JS Cheatsheet](https://mbeaudru.github.io/modern-js-cheatsheet/translations/ja-JP.html)
 
 ### TypeScript
 
@@ -45,7 +45,6 @@
 - [DOM 的事件傳遞機制：捕獲與冒泡](https://blog.techbridge.cc/2017/07/15/javascript-event-propagation/)
 - [JS 原力覺醒 — Event Queue & Event Loop 、Event Table](https://medium.com/walkout/js-%E5%8E%9F%E5%8A%9B%E8%A6%BA%E9%86%92-day13-event-queue-event-loop-event-table-374fbbef3e40)
 - [覺得 JavaScript function 很有趣的我是不是很奇怪 - Huli](https://blog.huli.tw/2020/04/18/javascript-function-is-awesome/)
-- [深入現代前端開發](https://f2e.kalan.dev/)
 
 ### Framework
 

@@ -110,7 +110,7 @@ DOM 事件標準裡定義了事件傳播的 3 個階段：「捕獲階段」、�
 ## MutationObserver
 
 - [JavaScript 是如何工作的：使用 MutationObserver 跟踪 DOM 的变化](https://blog.fundebug.com/2019/01/10/understand-mutationobserver/)
-- [How JavaScript works: tracking changes in the DOM using MutationObserver | by Alexander Zlatkov | SessionStack Blog](https://blog.sessionstack.com/how-javascript-works-tracking-changes-in-the-dom-using-mutationobserver-86adc7446401)
+- [How JavaScript works: tracking changes in the DOM using MutationObserver](https://blog.sessionstack.com/how-javascript-works-tracking-changes-in-the-dom-using-mutationobserver-86adc7446401)
 - [DOM 变动观察器（Mutation observer）](https://zh.javascript.info/mutation-observer)
 
 ### 簡介

@@ -5,12 +5,11 @@
 - [漫談 CSS 架構方法 - 以 OOCSS, SMACSS, BEM 為例](https://www.slideshare.net/kurotanshi/css-oocss-smacss-bem)
 - [CSS 不是我們想像的這麼簡單！](https://speakerdeck.com/kurotanshi/css-bu-shi-wo-men-xiang-xiang-de-zhe-mo-jian-dan-tai-bei-chang)
 - [CSS のクラス名を決めるときに使うリストをつくりました](https://qiita.com/manabuyasuda/items/dbb76ed36970bec95470)
-- [Naming -名前付け- - Qiita](https://qiita.com/Koki_jp/items/f3d3e824f98d182d4100)
-- [CSS のクラス名を書く前に最低限知っておくべきルール＆BEM を改良してみた - Qiita](https://qiita.com/taka555/items/6c39f3fe7fca834aa448)
+- [CSS のクラス名を書く前に最低限知っておくべきルール＆BEM を改良してみた](https://qiita.com/taka555/items/6c39f3fe7fca834aa448)
 - [各 CSS 設計手法を取り入れる上でのメリット・デメリットをまとめてみた](https://qiita.com/nezurika/items/a964e21d3596b0ee4c9a)
 - [CSS 設計完全ガイドで学んだ PRE_CSS を Elm で堅牢に実装する](https://qiita.com/ababup1192/items/9a305c95cdf4d93fd32a)
 - [脱・ Atomic Design - HTML+CSS コーディングの粒度分類法 ( HTML Parts )](https://qiita.com/croco_works/items/e34d1b0c0e50b37031d7)
-- [1 年前に素人が FLOCSS 使って直面した疑問/失敗に対し、PRECSS を学んで解消 / 前進できた話 - Qiita](https://qiita.com/SYM_simu/items/9d653155fd98e12a641c)
+- [1 年前に素人が FLOCSS 使って直面した疑問/失敗に対し、PRECSS を学んで解消 / 前進できた話](https://qiita.com/SYM_simu/items/9d653155fd98e12a641c)
 
 ## OOCSS（模組化 CSS，Object Oriented CSS）
 
@@ -298,9 +297,10 @@ Element 只允許一層巢狀。也就是說，規範上是不可命名為 `card
 - [BEM Key concepts](https://en.bem.info/methodology/key-concepts/)
 - [一番詳しい CSS 設計規則 BEM のマニュアル](https://qiita.com/Takuan_Oishii/items/0f0d2c5dc33a9b2d9cb1)
 - [[HTML/SCSS] BEM 設計をワイヤーフレームを使って解説してみる](https://qiita.com/mame_hashbill/items/c5b09461d7acfce047fa)
-- [flocss](https://github.com/hiloki/flocss)
 
 ## FLOCSS
+
+- [flocss](https://github.com/hiloki/flocss)
 
 ## PRECSS
 

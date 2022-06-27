@@ -1,7 +1,6 @@
 # 10. 版型檢查
 
 - [CSS 筆記、建議與指導方針總整理](https://github.com/doggy8088/CSS-Guidelines)
-- [cssreference.io](https://cssreference.io/)
 - [CSS Style Guides](https://dailydevlinks.com/css-style-guides/)
 - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
 - [Google が推奨する HTML/CSS のスタイルガイドについて](https://www.wan55.co.jp/column/detail/id=485)

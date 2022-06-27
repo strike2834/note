@@ -290,6 +290,80 @@
     - `mkdir ~/temp`
   - 加上 `-p` 可一同建立路徑中不存在的資料夾
     - `mkdir -p dir1/dir2/dir3/dir4/`
+- ifconfig
+  - 檢視系統網路狀況
+  - 檢視所有網路狀況
+    - `ifconfig -a`
+  - 可使用 `up` 與  `down` 啟動或停用某個網路
+    - `ifconfig eth0 up`
+    - `ifconfig eth0 down`
+- uname
+  - 顯示重要系統訊息，例如 kernal 名稱、主機名稱、CPU 類型等等
+  - `uname -a`
+- `whereis`
+  - 搜尋某個指令的執行檔位置
+    - `whereis ls`
+  - 也可加上 `-B` 與目錄位置搜尋位於 `whereis` 預設路徑之外的執行檔
+    - `whereis -u -B /tmp -f lsmk`
+- whatis
+  - 顯示某個指令的內容敘述
+    - `whatis ls`
+    - `whatis ifconfig`
+- locate
+  - 輸出某個指定檔案（或一群檔案）的路徑，由 `updatedb` 所建立
+    - `locate crontab`
+- man
+  - 顯示某個指令的說明頁面
+    - `man crontab`
+- tail
+  - 顯示檔案尾端內容，預設為最後 10 行
+  - 可使用 `-n` 指定要顯示的行數
+    - `tail -n N filename.txt`
+  - 可使用 `-f` 持續監聽更新內容
+    - `tail -f log-file`
+- less
+  - 在不載入檔案的前提下顯示檔案內容
+    - `less huge-log-file.log`
+- su
+  - 切換使用帳號
+    - `su - USERNAME`
+  - 以某個帳號使用指定指令後切換回原本帳號
+    - `su -raj -c 'ls'`
+  - 使用指定 shell 登入
+    - `su -s 'SHELLNAME' USERNAME`
+- mysql
+  - 登入遠端資料庫
+    - `mysql -u root -p -h 192.168.1.2`
+  - 登入本地資料庫
+    - `mysql -u root -p`
+- yum
+  - 安裝 Apache
+    - `yum install httpd`
+  - 更新 Apache
+    - `yum update httpd`
+  - 移除 Apache
+    - `yum remove httpd`
+- rpm
+  - 安裝 Apache
+    - `rpm -ivh httpd-2.2.3-22.0.1.el5.i386.rpm`
+  - 更新 Apache
+    - `rpm -uvh httpd-2.2.3-22.0.1.el5.i386.rpm`
+  - 移除 Apache
+    - `rpm -ev httpd`
+- ping
+  - 發送 5 次封包詢問遠端主機
+    - `ping -c 5 gmail.com`
+- date
+  - 設定系統日期
+    - `date -s "01/31/2010 23:59:53"`
+  - 同步硬體時間
+    - `hwclock -systohc`
+    - `hwclock --systohc -utc`
+- wget
+  - 下載網路內容
+    - `wget URL`
+  - 下載網路內容並以指定名稱儲存
+    - `wget -O FILENAME URL`
 
 ### fish
 
