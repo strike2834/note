@@ -3,23 +3,7 @@
 ## 總合
 
 - [CS50 for Japanese: コンピュータサイエンスの入門](https://cs50.jp/)
-- [【全部無料】ハマると時間が秒で過ぎる英語圏のプログラミング系サイトまとめ【英語学習】](https://qiita.com/sukebeeeeei/items/76ce249ed264b8acc5f8)
 - [技術ようつべチャンネル集](https://qiita.com/welt_meister_/items/d89710a59c8822ac7fc7)
-- [CG 学習向けの高校数学＋ α](https://speakerdeck.com/imagire/cgxue-xi-xiang-kefalsegao-xiao-shu-xue-a)
-
-## 雜學
-
-- [僕「PDF とは何か知りたい」](https://qiita.com/zawawahoge/items/4312649f8d56f8983ffb)
-- [kindle 書籍の pdf 化](https://qiita.com/keitasumiya/items/c9d0f81fd7fb96e505b3)
-- [日本人の 9 割が知らない QR コードの真実](https://makiuchi-d.github.io/2018/12/09/qiita-55caa4c56ae5cb64b948.ja.html)
-- [不思議の国の SE 用語](https://qiita.com/t_nakayama0714/items/478a8ed3a9ae143ad854)
-- [最低限の Network 知識](https://zenn.dev/hee/articles/ce9002ae525622)
-- [なるべく切れない回線のつくりかた（物理）](https://qiita.com/norisionori/items/01784500e9f4a6d0474b)
-- [やっと理解できる！3 次元・4 次元・N 次元物体の描画まとめ](https://qiita.com/Anko_9801/items/449d0e0fec6bf473f561)
-- [暗号技術勉強メモ](https://qiita.com/opengl-8080/items/85df520e2d8c4e19be8e)
-- [物理ベースレンダリングを柔らかく説明してみる（１）](https://qiita.com/emadurandal/items/3a8db7bc61438245654d)
-- [文字で、文字や絵を書く技術](https://qiita.com/youwht/items/c2e60c63625dfb6817dd)
-- [Z̩̮̜͉̣͎͉̤͇͂̇͊̇̅̚ͅa̠͌̔l̨̢̞̘͉̟̰̱̭̜͍̙̣̬̂̿̌̐̾̾͂̍̽̓̓̇̄g̨̢̡̢̛͍̪̠̠̹̜̪̘̱͌̆̒̅̐ỏ̡̱̞̣̖̦̰̙͊́̋́̃̂̓̍̃](https://qiita.com/SekiT/items/614d5d178f717c6b2997)
 
 ## 資料結構
 
@@ -29,6 +13,7 @@
 ## 演算法概論
 
 - [演算法](http://www.csie.ntnu.edu.tw/~u91029/index.html)
+- [Algorithm Visualizer](https://algorithm-visualizer.org/)
 - [Algorithms](https://github.com/TheAlgorithms/Python/blob/master/DIRECTORY.md)
 - [非關語言: 常見程式演算](https://openhome.cc/Gossip/AlgorithmGossip/index.html)
 - [代克思托演算法 (Dijkstra's algorithm)](http://nthucad.cs.nthu.edu.tw/~yyliu/personal/nou/04ds/dijkstra.html)
@@ -36,7 +21,6 @@
 - [普林演算法 (Prim's algorithm)](http://nthucad.cs.nthu.edu.tw/~yyliu/personal/nou/04ds/prim.html)
 - [たのしい探索アルゴリズムの世界【前編：全探索、bit 全探索から半分全列挙まで】](https://qiita.com/e869120/items/25cb52ba47be0fd418d6)
 - [たのしい探索アルゴリズムの世界【後編：探索手法で実社会の様々な問題を斬る！】](https://qiita.com/e869120/items/72cc1370cbc0da1be9ef)
-- [開始用 javaScript 學演算法囉之前言](https://ithelp.ithome.com.tw/articles/10213184)
 - [BFS (幅優先探索) 超入門！ 〜 キューを鮮やかに使いこなす 〜](https://qiita.com/drken/items/996d80bcae64649a6580)
 - [アルゴリズム・AtCoder のための数学【前編：数学的知識編 ①】](https://qiita.com/e869120/items/b4a0493aac567c6a7240)
 
@@ -75,10 +59,10 @@
 
 ## 工程數學
 
-- https://www.ice.tohtech.ac.jp/nakagawa/index.htm
-- https://disp.cc/b/11-2mY6
-- https://disp.cc/b/11-2mY7
-- https://disp.cc/b/11-2mY9
+- [東北工業大学工学部情報通信工学科 中川研究室](https://www.ice.tohtech.ac.jp/nakagawa/index.htm)
+- [[工數] 工程機率筆記 ch0 數學基礎](https://disp.cc/b/11-2mY6)
+- [[工數] 工程機率筆記 ch1 機率導論](https://disp.cc/b/11-2mY7)
+- [[工數] 工程機率筆記 ch2 隨機變數](https://disp.cc/b/11-2mY9)
 
 ## 離散數學
 
@@ -97,3 +81,13 @@
 - [TCP 與 UDP](http://www.pcnet.idv.tw/pcnet/network/network_ip_tcp.htm)
 - [TCP Connection Termination](http://www.tcpipguide.com/free/t_TCPConnectionTermination-2.htm)
 - [區域網路與高速網路](http://www.cs.nthu.edu.tw/~nfhuang/contents.htm)
+
+## 雜學
+
+- [僕「PDF とは何か知りたい」](https://qiita.com/zawawahoge/items/4312649f8d56f8983ffb)
+- [kindle 書籍の pdf 化](https://qiita.com/keitasumiya/items/c9d0f81fd7fb96e505b3)
+- [日本人の 9 割が知らない QR コードの真実](https://makiuchi-d.github.io/2018/12/09/qiita-55caa4c56ae5cb64b948.ja.html)
+- [不思議の国の SE 用語](https://qiita.com/t_nakayama0714/items/478a8ed3a9ae143ad854)
+- [最低限の Network 知識](https://zenn.dev/hee/articles/ce9002ae525622)
+- [なるべく切れない回線のつくりかた（物理）](https://qiita.com/norisionori/items/01784500e9f4a6d0474b)
+

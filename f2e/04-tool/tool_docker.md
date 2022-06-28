@@ -40,6 +40,8 @@ Docker 以名為 `dockerfile` 的檔案為基礎來建立鏡像，以及產生�
 
 ## 安裝
 
+- [30 天與鯨魚先生做好朋友](https://ithelp.ithome.com.tw/users/20102562/ironman/3746?page=1)
+
 ### A. MAC、Windows
 
 目前在 MAC 和 Windows 上面也可以使用 docker，從官方網站 [Docker Desktop for Mac and Windows](https://www.docker.com/products/docker-desktop) 裡下載並安裝之後，在 terminal 裡輸入 `docker --version` 和 `docker-compose --version` 有出現版本號，就代表安裝成功。
