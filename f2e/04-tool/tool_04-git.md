@@ -29,9 +29,7 @@
 
 ## 工具安裝
 
-- [Git Client](git-scm.com/downloads)
-- [Mac](https://pepese.github.io/blog/mac-dev-environment/)
-- [Git 使うのに便利な CLI ツール](https://qiita.com/ryuichi1208/items/45fd2cdd865097a7ad3d)
+- [Git Client](https://git-scm.com/downloads)
 - [gitignore.io](https://www.gitignore.io/)
 
 ### VSCode 插件
@@ -46,7 +44,6 @@
 
 - [GitHub](https://github.com/)
 - [GitLab](https://gitlab.com/)
-- [Heroku](https://dashboard.heroku.com/apps)
 
 ### 指令速見表
 
@@ -56,6 +53,8 @@
 ## 指令
 
 - [Learn Git Branching](https://learngitbranching.js.org/?locale=zh_TW)
+- [Git でのバージョン コントロールの概要](https://docs.microsoft.com/ja-jp/learn/paths/intro-to-vc-git/)
+- [GitHub の基礎 - 管理の基本と製品の機能。](https://docs.microsoft.com/ja-jp/learn/paths/github-administration-products/)
 - [Git 的奇技淫巧](https://github.com/521xueweihan/git-tips)
 
 ### 初始
@@ -302,6 +301,9 @@
   - 等同於 `git checkout main` -> `git rebase caption`？
 - [git merge 與 rebase 的觀念與實務應用](https://www.slideshare.net/WillHuangTW/git-merge-rebase)
 - [rebase をちゃんと理解して使えるようになろう！](https://qiita.com/shira-shun/items/29c7f36179117022cb6d)
+- [Git Rebase: Don't be Afraid of the Force (Push) - Gerald Versluis](https://blog.verslu.is/git/git-rebase/)
+  - `git rebase -i origin/master`
+  - `git rebase --abort`
 
 #### 3. `git cherry-pick [commit_id]`
 

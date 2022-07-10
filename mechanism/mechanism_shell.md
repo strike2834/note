@@ -1,2 +1,3 @@
 - [Bash-Oneliner](https://github.com/onceupon/Bash-Oneliner)
 - [名著「入門UNIXシェルプログラミング」の超詳細なレビューをしてみた（古い内容の訂正）](https://qiita.com/ko1nksm/items/0fa2f73dd6d9822518a3)
+- [UNIX プログラミングの基礎知識](https://gadgety.net/shin/lang/c/programming.html)

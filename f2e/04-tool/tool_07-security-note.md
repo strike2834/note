@@ -1,5 +1,7 @@
 # 網頁安全
 
+- [「仕様の脆弱性」まとめブログ用のチェックシート](https://github.com/flatt-security/blog-specification-vlunerabilities-check-sheet)
+
 ## RFC9116
 
 - [あなたのWebサービスの脆弱性を発見者から教えてもらう方法 - RFC9116が発表されました](https://zenn.dev/sh1ma/articles/20e61d84e7d380)

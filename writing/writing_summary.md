@@ -23,6 +23,7 @@
 - [リーダブルコードをマインドマップでまとめる](https://qiita.com/yakumo/items/27d23dc2d9a75f11f16a)
 - [code-review-tips](https://github.com/ryanmcdermott/code-review-tips)
 - [跟 Google 學如何 Code Review - 精華摘要與團隊反思](https://www.notion.so/Google-Code-Review-a275c5f3e017467a9b667e21c9521e39)
+- [The Twelve-Factor App （日本語訳）](https://12factor.net/ja/)
 
 ### 思考
 
@@ -54,6 +55,7 @@
 - [良い Design Docs(Software Design Document)を書くためのリソース集](https://r-kaga.com/blog/collection-of-resources-for-writing-a-good-design-docs)
 - [会社で書いてるコードも「OSS で公開しちゃえ！」ってしたいから OSS ガイドラインを作った](https://qiita.com/norinux/items/44b01075a9dc6f10ec29)
 - [テクニカルライティングの基本](https://speakerdeck.com/naohiro_nakata/technicalwriting)
+- [障害報告書を書こう！](https://qiita.com/Ping/items/7cc93bcae87583184121)
 
 ###
 

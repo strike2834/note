@@ -2,22 +2,58 @@
 
 - [Fullstack part1 | React 簡介](https://fullstackopen.com/zh/part1/react_%E7%AE%80%E4%BB%8B)
 - [React 教學 - React 教學 Tutorial](https://www.fooish.com/reactjs/)
-- [React を使うとなぜ jQuery が要らなくなるのか - Qiita](https://qiita.com/naruto/items/fdb61bc743395f8d8faf)
-- [\[初心者向け\]React の基礎を徹底解説してみた - Qiita](https://qiita.com/renesisu727/items/98b308ee72281b6f8066#%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB)
-- [【React Native】アプリ開発未経験のフロントエンドエンジニアが ToDo リストを作ってみる - Qiita](https://qiita.com/daiend/items/9b7f2eada88ad0dd7c5c)
-- [Chakra UI | Design System built with React](https://chakra-ui.com/)
-- [デザイナーでも分かる範囲の React、その書き方と学び方 - Qiita](https://qiita.com/xrxoxcxox/items/91f84c6bc3e03deb5853)
+- [React を使うとなぜ jQuery が要らなくなるのか](https://qiita.com/naruto/items/fdb61bc743395f8d8faf)
+- [\[初心者向け\]React の基礎を徹底解説してみた](https://qiita.com/renesisu727/items/98b308ee72281b6f8066#%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB)
+- [【React Native】アプリ開発未経験のフロントエンドエンジニアが ToDo リストを作ってみる](https://qiita.com/daiend/items/9b7f2eada88ad0dd7c5c)
+- [デザイナーでも分かる範囲の React、その書き方と学び方](https://qiita.com/xrxoxcxox/items/91f84c6bc3e03deb5853)
 - [React を深く知るための入り口](https://zenn.dev/panda_program/articles/deep-dive-into-react)
-- [すごい React フック 8 選 - Qiita](https://qiita.com/baby-degu/items/52dbb382bbaf6c43e2db)
+- [すごい React フック 8 選](https://qiita.com/baby-degu/items/52dbb382bbaf6c43e2db)
 - [React ステート管理 比較考察 - uhyo/blog](https://blog.uhy.ooo/entry/2021-07-24/react-state-management/)
+- [Chakra UI](https://chakra-ui.com/)
 
 ## 安裝
+
+### Webpack React
 
 ```
 npx create-react-app@5.0.0 react-app
 cd react-app
 npm start
 ```
+
+- [Getting Started | Create React App](https://create-react-app.dev/docs/getting-started)
+
+### Vite React
+
+- `yarn create @vitejs/app`
+- `npm create vite@latest`
+- choose `react` or `react-ts`
+- [Getting Started | Vite](https://vitejs.dev/guide/)
+
+#### Directory
+
+```
+|- dist/
+ - src/
+   |- assets/
+   |- config
+   |  |- config.js
+   |- components/
+   |- service/
+   |- store/
+   |- until/
+   |- pages/
+   |- router/
+|- .main.tsx
+|- .env
+|- vite.config.ts
+ - package.json   
+```
+
+### Preact
+
+- `npx preact-cli create default my-project`
+- [Getting Started | Preact](https://preactjs.com/guide/v10/getting-started)
 
 ## JSX
 
@@ -82,6 +118,8 @@ const App = () => {
 ## 如何建構應用
 
 - [mind-map/2.11React 哲学](https://github.com/jCodeLife/mind-map/blob/master/React/2.%20%E6%A0%B8%E5%BF%83%E6%A6%82%E5%BF%B5/2.11React%20%E5%93%B2%E5%AD%A6.png)
+- [極端なパターンを考えて、技術的な落とし所を探っていく - mizdra's blog](https://www.mizdra.net/entry/2022/06/26/183839)
+
 1. 從設計稿開始
 2. 將設計好的 UI 劃分至組件層級
 3. 用 React 製作靜態版本
