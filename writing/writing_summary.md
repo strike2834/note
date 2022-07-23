@@ -59,6 +59,7 @@
 
 ###
 
+- [分かりやすい日本語文章の書き方・ルールの基本](https://upwrite.jp/writing_professionals/)
 - [技術書典 12 で用いた同人誌の執筆環境と GitHub Oriented Writing の紹介](https://zenn.dev/drumath2237/articles/b65ef1f0587dfd)
 - [74th の技術同人誌執筆環境（Markdown+Vivliostyle+VS Code）](https://zenn.dev/74th/articles/ed2229692ba6c6)
 - [「Visual Studio Code」で執筆する SF 作家　藤井太洋氏が作る物書きのための拡張機能 - ログミー Tech](https://logmi.jp/tech/articles/325715)
@@ -78,3 +79,42 @@
 | 調整速度   | 以對方能跟上的語速說明                           | 以對方無法跟上的語速說明                 |
 | 選擇詞彙   | 使用對方能理解的詞彙                             | 使用自己能理解但對方無法理解的詞彙       |
 | 照護       | 觀察對方是否能跟上，並適時地調整                 | 未觀察對方狀況，而集中在自己想吐露的事情 |
+
+## 影片字幕
+
+- [染谷泰正のホームページ](http://someya-net.com/index2.html)
+- [資料1 字幕の基本ルール (Rev.09-3)](http://someya-net.com/84-Subtitle_TeachingModel/Rules_Subtitle.pdf)
+- [字幕翻訳のルール](https://babel-edu.jp/pst-kougi/sample/super-1/guide/kadai/rule.htm)
+
+## 圖表
+
+- [図解の種類 ほとんどの図解は８チャート８グラフに収まります](https://twitter.com/juntoku_y/status/1546995675698966529/photo/1)
+- [「データビジュアライゼーションの基礎」のまとめ グラフ編](https://zenn.dev/zerebom/articles/48292f64e50735)
+- 流程圖
+  - 縱橫
+    - 表格圖
+    - 象限圖
+  - 關聯
+    - 階層圖
+    - 集合圖
+    - 關係圖
+  - 時間
+    - 階段圖
+    - 程序圖
+    - 循環圖
+- 曲線圖
+  - 數量
+    - [條狀圖](https://zh.wikipedia.org/zh-tw/%E6%9D%A1%E5%BD%A2%E5%9B%BE)
+    - [圓餅圖](https://zh.wikipedia.org/zh-tw/%E9%A5%BC%E5%9B%BE)
+    - 面積圖
+  - 變化
+    - [折線圖](https://zh.wikipedia.org/zh-tw/%E6%8A%98%E7%B7%9A%E5%9C%96)／[趨勢圖](https://zh.wikipedia.org/zh-tw/%E8%B6%8B%E5%8A%BF%E5%9B%BE)
+    - 山形圖
+  - 分佈
+    - [直方圖](https://zh.wikipedia.org/zh-tw/%E7%9B%B4%E6%96%B9%E5%9B%BE)
+    - 散佈圖
+    - 雷達圖／極區圖
+
+## UX
+
+- [「UXデザインとは」からはじめる「本流」のUXデザインはじめの一歩](https://www.slideshare.net/storywriterjp/uxux-ux-1)

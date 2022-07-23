@@ -2,7 +2,7 @@
 
 Google 所提供的 Sheet API 可以直接將 Sheet 內容轉換成 JSON 格式輸出，
 <br>亦可接受從外部傳進資料，修改 Sheet 裡的內容，
-<br>並且都有提供 CORS 支援，可以免於處理跨域的困擾。
+<br>並且都有提供 CORS 支援，可免於處理跨域的困擾。
 
 本文整理了兩種使用方式：
 
@@ -338,6 +338,6 @@ fetch(appUrl, {
 
 ### 參考文章
 
-- [寫給純前端，讓 Google Sheets 當你的後端完成寫入功能 | by Lai | UnaLai | Medium](https://medium.com/unalai/%E5%AF%AB%E7%B5%A6%E7%B4%94%E5%89%8D%E7%AB%AF-%E8%AE%93-google-sheets-%E7%95%B6%E4%BD%A0%E7%9A%84%E5%BE%8C%E7%AB%AF%E5%AE%8C%E6%88%90%E5%AF%AB%E5%85%A5%E5%8A%9F%E8%83%BD-715799e5e013)
-- [Google 試算表 ( 前後端實作 ) - Webduino 實戰智慧插座教學](https://tutorials.webduino.io/zh-tw/docs/socket/useful/google-sheet-2.html)
+- [寫給純前端，讓 Google Sheets 當你的後端完成寫入功能](https://medium.com/unalai/%E5%AF%AB%E7%B5%A6%E7%B4%94%E5%89%8D%E7%AB%AF-%E8%AE%93-google-sheets-%E7%95%B6%E4%BD%A0%E7%9A%84%E5%BE%8C%E7%AB%AF%E5%AE%8C%E6%88%90%E5%AF%AB%E5%85%A5%E5%8A%9F%E8%83%BD-715799e5e013)
+- [Google 試算表 (前後端實作)](https://tutorials.webduino.io/zh-tw/docs/socket/useful/google-sheet-2.html)
 - [盤點各種線上協作資料(庫)方案 - g0v.hackpad.tw](https://g0v.hackpad.tw/5Ofw64qSz7P#:h=Google-Spreadsheet)

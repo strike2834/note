@@ -15,3 +15,7 @@
 - [Using parameters in batch files at Windows command line](https://stackoverflow.com/questions/14286457/using-parameters-in-batch-files-at-windows-command-line)
 - `%0` is **the executable (batch file) name as specified in the command line.
 - `%1` is **all parameters specified in the command line`
+
+## Redirection
+
+- [Command Redirection, Pipes - Windows CMD](https://ss64.com/nt/syntax-redirection.html)

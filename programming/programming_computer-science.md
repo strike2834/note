@@ -81,6 +81,7 @@
 - [TCP 與 UDP](http://www.pcnet.idv.tw/pcnet/network/network_ip_tcp.htm)
 - [TCP Connection Termination](http://www.tcpipguide.com/free/t_TCPConnectionTermination-2.htm)
 - [區域網路與高速網路](http://www.cs.nthu.edu.tw/~nfhuang/contents.htm)
+- [メモ: 『Linuxで動かしながら学ぶTCP/IPネットワーク入門』](https://zenn.dev/bells17/scraps/be121ff8e873aa)
 
 ## 雜學
 
