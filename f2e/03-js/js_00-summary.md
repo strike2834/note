@@ -48,31 +48,7 @@
 
 ### Framework
 
-- [チュートリアル：React の導入 - React](https://ja.reactjs.org/tutorial/tutorial.html)
+- [チュートリアル：React の導入](https://ja.reactjs.org/tutorial/tutorial.html)
 - [React.js Examples](https://reactjsexample.com/)
 - [Vue.js](https://vue-new-docs-cn.netlify.app/)
 - [Svelte 中文文档](https://www.sveltejs.cn/)
-
-### 現代 JS 的常見基礎技術
-
-- [Node.js](https://nodejs.org/en/)
-- Package Manager
-  <br>├ npm
-  <br>├ Yarn
-  <br>└ Bower
-- Task Runner / Module Bundler
-  <br>├ gulp
-  <br>├ Grunt
-  <br>├ webpack
-  <br>└ Parcel
-- Transpiler / Compiler
-  <br>└ Babel
-- Alt JS
-  <br>├ CoffeeScript
-  <br>├ TypeScript
-  <br>└ PureScript
-- Framework / UI Library
-  <br>├ React
-  <br>├ Vue.js
-  <br>├ Angular
-  <br>└ Riot.js

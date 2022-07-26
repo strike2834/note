@@ -1,6 +1,8 @@
-# Marp - 在 VSCode 上使用 Markdown 檔案產生投影片
+# Marp 
 
-VSCode 上的插件 Marp 除了可以將 markdown 檔案產出為既有的網頁形式外，還可以轉換成 pdf 或 PowerPoint 等格式
+- VSCode 上的插件 Marp 
+- 可將 markdown 檔案產出為既有的網頁形式
+- 還可以轉換成 pdf 或 PowerPoint 等格式
 
 ## 安裝
 

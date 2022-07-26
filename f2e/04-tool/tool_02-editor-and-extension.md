@@ -32,15 +32,3 @@
 | [Ricty](https://rictyfonts.github.io/)                                     | 統合 Inconsolata 和 Migu 1M 的英日等寬字型         |
 | [FIRA CODE](https://github.com/tonsky/FiraCode)                            | 將如 `===` 或 `<$` 的記述轉成單一字符的程式用字型  |
 | [SOURCE CODE PRO](https://github.com/adobe-fonts/source-code-pro)          | 由 Adobe 推出的程式用等寬字型                      |
-
-## F2E
-
-## Cheatsheet
-
-| 名稱                                                                                     | 說明                             | 付費 |
-| ---------------------------------------------------------------------------------------- | -------------------------------- | ---- |
-| [tldr](https://tldr.sh/)                                                                 | 精簡版的 Linux 指令說明（man）   | FREE |
-| [Hyperpolyglot](http://hyperpolyglot.org/)                                               | 各種程式語言的基礎撰寫整理與比較 | FREE |
-| [Learn X in Y minutes](https://learnxinyminutes.com/)                                    | 快速學習與複習各種程式語言       | FREE |
-| [The-Documentation-Compendium](https://github.com/kylelobo/The-Documentation-Compendium) | 整理各種 README 的樣本何撰寫技巧 | FREE |
-| [Build Your Own X](https://build-your-own-x.now.sh/)                                     |                                  | FREE |

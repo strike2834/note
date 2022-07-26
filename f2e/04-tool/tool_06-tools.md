@@ -1,22 +1,9 @@
 # Toolbox
 
-<style>
-table {
-  width: 100%;
-}
-table td:nth-child(1) {
-  width: 25%;
-}
-table td:nth-child(3) {
-  width: 20%;
-}
-</style>
-
 ## 前端
 
 | 名稱                                                                                                             | 說明                                               | 付費 |
 | ---------------------------------------------------------------------------------------------------------------- | -------------------------------------------------- | ---- |
-| [Rico's cheatsheets](https://devhints.io/)                                                                       | 各種前端相關語言的基礎撰寫整理                     | FREE |
 | [Can I use](https://caniuse.com/)                                                                                | 查詢前端功能在各個瀏覽器的支援度                   | FREE |
 | [YOU MIGHT NOT NEED JQUERY](http://youmightnotneedjquery.com/)                                                   | 整理如何用原生 JavaScript 替代 jQuery              | FREE |
 | [moving from jQuery to vanilla JavaScript](https://tobiasahlin.com/blog/move-from-jquery-to-vanilla-javascript/) | 整理如何用原生 JavaScript 替代 jQuery              | FREE |

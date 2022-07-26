@@ -39,6 +39,72 @@
 
 - [fish shell](https://fishshell.com/)
 
+## TinyCore Linux
+
+- [Contents](https://dywang.csie.cyut.edu.tw/dywang/linuxSystem/node1.html)
+- [GNU/Linux Command-Line Tools Summary](https://tldp.org/LDP/GNU-Linux-Tools-Summary/html/index.html)
+- [BASH Programming - Introduction HOW-TO](https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
+
+### Default Settings
+
+- acc: tc
+- pwd: piCore
+- [Chris Mccormick - Tiny Core Linux on Raspberry Pi](https://mccormick.cx/news/entries/tiny-core-linux-on-raspberry-pi)
+
+### 基礎資料夾結構
+
+| 資料夾   | 內容                                              |
+| -------- | ------------------------------------------------- |
+| `/`      | 根目錄                                            |
+| `/bin`   | 基礎可執行的檔案與指令                            |
+| `/boot`  | 啟動 OS 需要的檔案                                |
+| `/dev`   | 裝置檔案                                          |
+| `/etc`   | 系統設定檔案                                      |
+| `/home`  | 各個使用者的根目錄                                |
+| `/lib`   | 通用 library                                      |
+| `/mnt`   | 檔案系統 mount point                              |
+| `/media` | CD 或 DVD 的 mount point                          |
+| `/opt`   | Addon app and data                                |
+| `/proc`  | Information of kernal and process                 |
+| `/root`  | root 使用者的根目錄                               |
+| `/sbin`  | 系統管理者用的可執行檔案                          |
+| `/srv`   | 系統關聯檔案                                      |
+| `/tmp`   | 暫存檔案｜                                        |
+| `/usr`   | 與使用者相關的檔案、library、文件與 kernal source |
+| `/var`   | 郵件或紀錄等等的變動資料                          |
+
+### 確認空間使用狀況
+
+- `df`
+- `fdisk -l`
+
+#### 重新分割使用空間
+
+- [Setting up TinyCore Linux on Raspberry Pi](https://chipnetics.com/tutorials/tinycore-raspberry-pi/)
+
+```bash
+sudo fdisk -u /dev/mmcblk0
+# p -> 記下第二個分割區的起始與結束位置
+# d -> 刪除第二個分割區
+# n -> 選擇主要分割區，重新分配分割區大小
+# w -> 儲存變更並離開
+
+sudo reboot
+
+resize2fs /dev/mmcblk0p2
+```
+
+### 儲存變更
+
+- TinyCore 將檔案都 mount 於 RAM 上，且重開機就會清除檔案
+- `filetool -b` 會儲存變更過的設定
+- `sudo vi /opt/.filetool.lst` 可新增其他儲存路徑
+
+### Install Repo
+
+- `tce`
+- [TCE Repository - Tiny Core Linux](http://distro.ibiblio.org/tinycorelinux/tce.html)
+
 ## Basic instruction
 
 | 指令             | 內容         | 補充           |
@@ -388,68 +454,9 @@ sudo apt install --reinstall libc-bin
 sudo mv /tmp/libc-bin.* /var/lib/dpkg/info/
 ```
 
-## TinyCore Linux
+## Bash
 
-- [Contents](https://dywang.csie.cyut.edu.tw/dywang/linuxSystem/node1.html)
-- [GNU/Linux Command-Line Tools Summary](https://tldp.org/LDP/GNU-Linux-Tools-Summary/html/index.html)
-- [BASH Programming - Introduction HOW-TO](https://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html)
-
-### Default Settings
-
-- acc: tc
-- pwd: piCore
-- [Chris Mccormick - Tiny Core Linux on Raspberry Pi](https://mccormick.cx/news/entries/tiny-core-linux-on-raspberry-pi)
-
-### 基礎資料夾結構
-
-| 資料夾   | 內容                                              |
-| -------- | ------------------------------------------------- |
-| `/`      | 根目錄                                            |
-| `/bin`   | 基礎可執行的檔案與指令                            |
-| `/boot`  | 啟動 OS 需要的檔案                                |
-| `/dev`   | 裝置檔案                                          |
-| `/etc`   | 系統設定檔案                                      |
-| `/home`  | 各個使用者的根目錄                                |
-| `/lib`   | 通用 library                                      |
-| `/mnt`   | 檔案系統 mount point                              |
-| `/media` | CD 或 DVD 的 mount point                          |
-| `/opt`   | Addon app and data                                |
-| `/proc`  | Information of kernal and process                 |
-| `/root`  | root 使用者的根目錄                               |
-| `/sbin`  | 系統管理者用的可執行檔案                          |
-| `/srv`   | 系統關聯檔案                                      |
-| `/tmp`   | 暫存檔案｜                                        |
-| `/usr`   | 與使用者相關的檔案、library、文件與 kernal source |
-| `/var`   | 郵件或紀錄等等的變動資料                          |
-
-### 確認空間使用狀況
-
-- `df`
-- `fdisk -l`
-
-#### 重新分割使用空間
-
-- [Setting up TinyCore Linux on Raspberry Pi](https://chipnetics.com/tutorials/tinycore-raspberry-pi/)
-
-```bash
-sudo fdisk -u /dev/mmcblk0
-# p -> 記下第二個分割區的起始與結束位置
-# d -> 刪除第二個分割區
-# n -> 選擇主要分割區，重新分配分割區大小
-# w -> 儲存變更並離開
-
-sudo reboot
-
-resize2fs /dev/mmcblk0p2
-```
-
-### 儲存變更
-
-- TinyCore 將檔案都 mount 於 RAM 上，且重開機就會清除檔案
-- `filetool -b` 會儲存變更過的設定
-- `sudo vi /opt/.filetool.lst` 可新增其他儲存路徑
-
-### Install Repo
-
-- `tce`
-- [TCE Repository - Tiny Core Linux](http://distro.ibiblio.org/tinycorelinux/tce.html)
+- [Bash-Oneliner](https://github.com/onceupon/Bash-Oneliner)
+- [名著「入門UNIXシェルプログラミング」の超詳細なレビューをしてみた（古い内容の訂正）](https://qiita.com/ko1nksm/items/0fa2f73dd6d9822518a3)
+- [UNIX プログラミングの基礎知識](https://gadgety.net/shin/lang/c/programming.html)
+- [Bash: わかるとほんのちょっとうれしくなること５選](https://qiita.com/akauma16/items/c01e12f559a1231ae003)
